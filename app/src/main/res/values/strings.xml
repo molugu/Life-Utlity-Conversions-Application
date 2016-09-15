@@ -1,0 +1,541 @@
+<resources>
+    <string name="app_name">Conversions</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="angle_of_banking"><b>Angle of Banking</b> is the angle between the normal horizontal path and the curved banked path.\n\nThe angle of banking of a curved path is defined as the angle through which the outer edge of the road is raised over the inner edge.\n\nHere in this angle of banking, enter the velocity of the vehicle i.e., speed of the vehicle (Kmph) and Radius (metre)of the horizontal path, then you will get the Angle of banking of the road with which it has been constructed.</string>
+
+    <string-array name="currency">
+        <item>Select Currency</item>
+        <item>EUR - Euro</item>
+        <item>USD - US Dollar</item>
+        <item>INR - Indian Rupee</item>
+        <item>AUD - Australian Dollar</item>
+        <item>CAD - Canadian Dollar</item>
+        <item>SGD - Singapore Dollar</item>
+        <item>JPY - Japanese Yen</item>
+        <item>MYR - Malaysian Ringgit</item>
+        <item>GBP - British Pound</item>
+        <item>CHF - Swiss Franc</item>
+        <item>CNY - Chinese Yuan Renminbi</item>
+        <item>SAR - Saudi Arabian Riyal</item>
+        <item>KWD - Kuwaiti Dinar</item>
+        <item>BRL - Brazilian Real</item>
+        <item>COP - Colombian Peso</item>
+        <item>HKD - Hong Kong Dollar</item>
+    </string-array>
+
+    <string-array name="timezone_array">
+        <item>Africa/Algiers</item>
+        <item>Africa/Cairo</item>
+        <item>Africa/Gaborone</item>
+        <item>Africa/Harare</item>
+        <item>Africa/Johannesburg</item>
+        <item>Africa/Lagos</item>
+        <item>Africa/Luanda</item>
+        <item>Africa/Nairobi</item>
+        <item>America/Antigua</item>
+        <item>America/Araguaina</item>
+        <item>America/Barbados</item>
+        <item>America/Bogota</item>
+        <item>America/Caracas</item>
+        <item>America/Cayenne</item>
+        <item>America/Chicago</item>
+        <item>America/Chihuahua</item>
+        <item>America/Coral_Harbour</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Dawson</item>
+        <item>America/Denver</item>
+        <item>America/Detroit</item>
+        <item>America/Dominica</item>
+        <item>America/Guatemala</item>
+        <item>America/Guyana</item>
+        <item>America/Havana</item>
+        <item>America/Indianapolis</item>
+        <item>America/Jamaica</item>
+        <item>America/Lima</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Louisville</item>
+        <item>America/Mexico_City</item>
+        <item>America/New_York</item>
+        <item>America/Panama</item>
+        <item>America/Phoenix</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/St_Vincent</item>
+        <item>America/Toronto</item>
+        <item>America/Vancouver</item>
+        <item>America/Yakutat</item>
+        <item>Antarctica/Vostok</item>
+        <item>Argentina/Buenos_Aires</item>
+        <item>Argentina/Salta</item>
+        <item>Argentina/San_Luis</item>
+        <item>Argentina/Ushuaia</item>
+        <item>Asia/Aden</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Bahrain</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Brunei</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Istanbul</item>
+        <item>Asia/Jakarta</item>
+        <item>Asia/Jerusalem</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Asia/Macau</item>
+        <item>Asia/Manila</item>
+        <item>Asia/Muscat</item>
+        <item>Asia/Pyongyang</item>
+        <item>Asia/Qatar</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Singapore</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Urumqi</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Yerevan</item>
+        <item>Atlantic/Bermuda</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Stanley</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Broken_Hill</item>
+        <item>Australia/Canberra</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Eucla</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Lindeman</item>
+        <item>Australia/Lord_Howe</item>
+        <item>Australia/Melbourne</item>
+        <item>Australia/North</item>
+        <item>Australia/Perth</item>
+        <item>Australia/Queensland</item>
+        <item>Australia/South</item>
+        <item>Australia/Sydney</item>
+        <item>Australia/Tasmania</item>
+        <item>Australia/Victoria</item>
+        <item>Australia/West</item>
+        <item>Australia/Yancowinna</item>
+        <item>Brazil/Acre</item>
+        <item>Brazil/DeNoronha</item>
+        <item>Brazil/East</item>
+        <item>Brazil/West</item>
+        <item>CET</item>
+        <item>Canada/Atlantic</item>
+        <item>Canada/Central</item>
+        <item>Canada/Eastern</item>
+        <item>Canada/Mountain</item>
+        <item>Canada/Newfoundland</item>
+        <item>Canada/Pacific</item>
+        <item>Canada/Yukon</item>
+        <item>Chile/Continental</item>
+        <item>Chile/EasterIsland</item>
+        <item>Cuba</item>
+        <item>EET</item>
+        <item>Egypt</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Andorra</item>
+        <item>Europe/Athens</item>
+        <item>Europe/Belfast</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Bratislava</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Budapest</item>
+        <item>Europe/Copenhagen</item>
+        <item>Europe/Dublin</item>
+        <item>Europe/Helsinki</item>
+        <item>Europe/Lisbon</item>
+        <item>Europe/London</item>
+        <item>Europe/Luxembourg</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Oslo</item>
+        <item>Europe/Paris</item>
+        <item>Europe/Prague</item>
+        <item>Europe/Riga</item>
+        <item>Europe/Rome</item>
+        <item>Europe/Sofia</item>
+        <item>Europe/Stockholm</item>
+        <item>Europe/Vatican</item>
+        <item>Europe/Viennna</item>
+        <item>Europe/Vilnius</item>
+        <item>Europe/Volgograd</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Zagreb</item>
+        <item>Europe/Zurich</item>
+        <item>GMT</item>
+        <item>Hongkong</item>
+        <item>Iceland</item>
+        <item>India(IST)</item>
+        <item>Indian/Maldives</item>
+        <item>Indian/Mauritius</item>
+        <item>Israel</item>
+        <item>Japan</item>
+        <item>Libya</item>
+        <item>Mexico/General</item>
+        <item>NZ</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Galapagos</item>
+        <item>Pacific/Guam</item>
+        <item>Pacific/Honolulu</item>
+        <item>Pacific/Palau</item>
+        <item>Pacific/Samoa</item>
+        <item>US/Alaska</item>
+        <item>US/Aleutian</item>
+        <item>US/Arizona</item>
+        <item>US/Central</item>
+        <item>US/Eastern</item>
+        <item>US/Hawaii</item>
+        <item>US/Michigan</item>
+        <item>US/Mountain</item>
+        <item>US/Pacific</item>
+        <item>US/Samoa</item>
+        <item>UTC</item>
+        <item>Universal</item>
+        <item>WET</item>
+        <item>Zulu</item>
+    </string-array>
+
+
+    <string name="radio_button_male">Male</string>
+    <string name="radio_button_female">Female</string>
+    <string-array name="height_arrays">
+        <item>Ft/In</item>
+        <item>Cm</item>
+    </string-array>
+
+    <string-array name="weight_arrays">
+        <item>Kg</item>
+        <item>Lbs</item>
+    </string-array>
+
+    <string-array name="length_left_arrays">
+        <item>Select</item>
+        <item>Kilometre</item>
+        <item>Meter</item>
+        <item>Centimetre</item>
+        <item>Millimetre</item>
+        <item>Mile</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+    <string-array name="length_right_arrays">
+        <item>Select</item>
+        <item>Kilometre</item>
+        <item>Meter</item>
+        <item>Centimetre</item>
+        <item>Millimetre</item>
+        <item>Mile</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+    <string-array name="weight_left_arrays">
+        <item>Select</item>
+        <item>Tonne</item>
+        <item>Kg</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Microgram</item>
+        <item>Pound</item>
+        <item>Quintal</item>
+        <item>Litre</item>
+    </string-array>
+
+    <string-array name="kg_array">
+        <item>Kg</item>
+    </string-array>
+
+    <string-array name="weight_right_arrays">
+        <item>Select</item>
+        <item>Tonne</item>
+        <item>Kg</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Microgram</item>
+        <item>Pound</item>
+        <item>Quintal</item>
+        <item>Wt. on moon</item>
+        <item>Wt. on mars</item>
+    </string-array>
+
+    <string-array name="area_left_arrays">
+        <item>Select</item>
+        <item>Sq.Metre</item>
+        <item>Sq.Cm</item>
+        <item>Sq.mm</item>
+        <item>Sq.Yard</item>
+        <item>Sq.Foot</item>
+        <item>Sq.Inch</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+        <item>Guntha</item>
+    </string-array>
+
+    <string-array name="area_right_arrays">
+        <item>Select</item>
+        <item>Sq.Metre</item>
+        <item>Sq.Cm</item>
+        <item>Sq.mm</item>
+        <item>Sq.Yard</item>
+        <item>Sq.Foot</item>
+        <item>Sq.Inch</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+        <item>Guntha</item>
+    </string-array>
+
+    <string-array name="time_left_arrays">
+        <item>Select</item>
+        <item>Century</item>
+        <item>Decade</item>
+        <item>Year</item>
+        <item>Month</item>
+        <item>Week</item>
+        <item>Day</item>
+        <item>Hour</item>
+        <item>Minute</item>
+        <item>Second</item>
+        <item>MilliSecond</item>
+    </string-array>
+
+    <string-array name="time_right_arrays">
+        <item>Select</item>
+        <item>Century</item>
+        <item>Decade</item>
+        <item>Year</item>
+        <item>Month</item>
+        <item>Week</item>
+        <item>Day</item>
+        <item>Hour</item>
+        <item>Minute</item>
+        <item>Second</item>
+        <item>MilliSecond</item>
+    </string-array>
+
+    <string-array name="yuga_arrays">
+        <item>Choose a yuga</item>
+        <item>Satya Yuga</item>
+        <item>Treta Yuga</item>
+        <item>Dvapara Yuga</item>
+        <item>Kali Yuga</item>
+    </string-array>
+
+    <string-array name="storage_left_arrays">
+        <item>Select</item>
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilo Byte</item>
+        <item>Mega Byte</item>
+        <item>Giga Byte</item>
+        <item>Tera Byte</item>
+        <item>Peta Byte</item>
+    </string-array>
+
+    <string-array name="storage_right_arrays">
+        <item>Select</item>
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilo Byte</item>
+        <item>Mega Byte</item>
+        <item>Giga Byte</item>
+        <item>Tera Byte</item>
+        <item>Peta Byte</item>
+    </string-array>
+
+    <string-array name="temperature_left_arrays">
+        <item>Select</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="temperature_right_arrays">
+        <item>Select</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="auconversion_left_arrays">
+        <item>Select</item>
+        <item>au</item>
+    </string-array>
+    <string-array name="auconversion_right_arrays">
+        <item>Select</item>
+        <item>km</item>
+        <item>miles</item>
+    </string-array>
+
+    <string-array name="planets_left_arrays">
+        <item>Select</item>
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="planets_right_arrays">
+        <item>Select</item>
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="mUnderweight">below 18.5</string>
+    <string name="mNormal">18.5 - 24</string>
+    <string name="mOverweight">25 - 30</string>
+    <string name="mObese">above 30</string>
+    <string name="fUnderweight">below 16.5</string>
+    <string name="fNormal">16.5 - 21</string>
+    <string name="fOverweight">22 - 27</string>
+    <string name="fObese">above 27</string>
+    <string name="Underweight">Underweight</string>
+    <string name="Normal">Normal</string>
+    <string name="Overweight">Overweight</string>
+    <string name="Obese">Obese</string>
+    <string name="BmiClassification">BMI Classification</string>
+
+    <string name="sound_speed">Speed of sound</string>
+    <string name="sound_inAir">in air = 332 m/s</string>
+    <string name="sound_seaLevel">at sea level = 340.29 m/s</string>
+
+    <string name="light_speed">Speed of light</string>
+    <string name="light_inAir">in air = 90 Km/s</string>
+    <string name="light_inVacuum">in vacuum = 3 x 10^8 m/s</string>
+
+    <integer name="edittext_maxlength">9</integer>
+    <integer name="edittext_maxlines">3</integer>
+
+    <string name="suntomercury">57.91 million KM</string>
+    <string name="suntovenus">108.2 million KM</string>
+    <string name="suntoearth">149.6 million KM</string>
+    <string name="suntomars">227.9 million KM</string>
+    <string name="suntojupiter">778.5 million KM</string>
+    <string name="suntosaturn">1.429 billion KM</string>
+    <string name="suntouranus">2.877 billion KM</string>
+    <string name="suntoneptune">4.498 billion KM</string>
+
+    <string name="mercurytovenus">50,290,000 KM</string>
+    <string name="mercurytoearth">91,691,000 KM</string>
+    <string name="mercurytomars">170,030,000 KM</string>
+    <string name="mercurytojupiter">720,420,000 KM</string>
+    <string name="mercurytosaturn">1,366,690,000 KM</string>
+    <string name="mercurytouranus">2,815,640,000 KM</string>
+    <string name="mercurytoneptune">4,443,090,000 KM</string>
+    
+    <string name="venustoearth">41,400,000 KM</string>
+    <string name="venustomars">119,740,000 KM</string>
+    <string name="venustojupiter">670,130,000 KM</string>
+    <string name="venustosaturn">1,316,400,000 KM</string>
+    <string name="venustouranus">2,765,350,000 KM</string>
+    <string name="venustoneptune">4,392,800,000 KM</string>
+
+    <string name="earthtomars">78,340,000 KM</string>
+    <string name="earthtojupiter">628,730,000 KM</string>
+    <string name="earthtosaturn">1,275,000,000 KM</string>
+    <string name="earthtouranus">2,723,950,000 KM</string>
+    <string name="earthtoneptune">4,351,400,000 KM</string>
+
+    <string name="marstojupiter">550,390,000 KM</string>
+    <string name="marstosaturn">1,196,660,000 KM</string>
+    <string name="marstouranus">2,645,610,000 KM</string>
+    <string name="marstoneptune">4,273,060,000 KM</string>
+
+    <string name="jupitertosaturn">646,270,000 KM</string>
+    <string name="jupitertouranus">2,095,220,000 KM</string>
+    <string name="jupitertoneptune">3,722,670,000 KM</string>
+
+    <string name="saturntouranus">1,448,950,000 KM</string>
+    <string name="saturntoneptune">3,076,400,000 KM</string>
+    <string name="uranustoneptune">1,627,450,000 KM</string>
+
+
+
+    <string name="sun_name">SUN</string>
+    <string name="sun_age">4.6 billion yrs</string>
+    <string name="sun_mass">1.989x10^30 Kg</string>
+    <string name="sun_weight">27.9</string>
+    <string name="sun_made">H,He</string>
+    <string name="sun_sat">0</string>
+
+    <string name="mercury_name">Mercury</string>
+    <string name="mercury_age">4.503 billion yrs</string>
+    <string name="mercury_mass">3.285x10^23 Kg</string>
+    <string name="mercury_weight">0.38</string>
+    <string name="mercury_made">Fe</string>
+    <string name="mercury_sat">0</string>
+
+    <string name="venus_name">Venus</string>
+    <string name="venus_age">4.503 billion yrs</string>
+    <string name="venus_mass">4.867x10^24 Kg</string>
+    <string name="venus_weight">0.91</string>
+    <string name="venus_made">Co2,N</string>
+    <string name="venus_sat">0</string>
+
+    <string name="earth_name">Earth</string>
+    <string name="earth_age">4.543 billion yrs</string>
+    <string name="earth_mass">5.972x10^24 Kg</string>
+    <string name="earth_weight">1</string>
+    <string name="earth_made">O2,Si,K,Fe,Na,Mg</string>
+    <string name="earth_sat">1</string>
+
+    <string name="mars_name">Mars</string>
+    <string name="mars_age">4.503 billion yrs</string>
+    <string name="mars_mass">6.39x10^23 Kg</string>
+    <string name="mars_weight">0.38</string>
+    <string name="mars_made">Dust,K,Cl,Na,Mg</string>
+    <string name="mars_sat">2</string>
+
+    <string name="jupiter_name">Jupiter</string>
+    <string name="jupiter_age">4.503 billion yrs</string>
+    <string name="jupiter_mass">1.898x10^27 Kg</string>
+    <string name="jupiter_weight">2.54</string>
+    <string name="jupiter_made">H,He</string>
+    <string name="jupiter_sat">63</string>
+
+    <string name="saturn_name">Saturn</string>
+    <string name="saturn_age">4.503 billion yrs</string>
+    <string name="saturn_mass">5.683x10^26 Kg</string>
+    <string name="saturn_weight">1.08</string>
+    <string name="saturn_made">H,He,NH3,CH4</string>
+    <string name="saturn_sat">60</string>
+
+    <string name="uranus_name">Uranus</string>
+    <string name="uranus_age">4.503 billion yrs</string>
+    <string name="uranus_mass">8.681x10^25 Kg</string>
+    <string name="uranus_weight">0.91</string>
+    <string name="uranus_made">Water,NH3,CH4</string>
+    <string name="uranus_sat">27</string>
+
+    <string name="neptune_name">Neptune</string>
+    <string name="neptune_age">4.503 billion yrs</string>
+    <string name="neptune_mass">1.024x10^26 Kg</string>
+    <string name="neptune_weight">0.91</string>
+    <string name="neptune_made">H,He,icy</string>
+    <string name="neptune_sat">13</string>
+
+
+</resources>

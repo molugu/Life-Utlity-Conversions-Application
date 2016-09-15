@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_velocity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+
+                android:id="@+id/spinner_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ( au ) "
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextview"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:paddingLeft="10dp"
+                android:hint="Convert unit from"
+                android:textColorHint="#a6a6a6"
+                android:id="@+id/editText_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLength="9"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/spinner_style">
+            <Spinner
+                android:padding="5dp"
+                android:id="@+id/spinner_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextview"
+            android:layout_gravity="center_horizontal">
+            <EditText
+                android:paddingLeft="10dp"
+                android:id="@+id/editText_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="Convert unit to"
+                android:textColorHint="#a6a6a6"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/convert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/convert_button"
+                android:text="Convert"
+                android:textColor="@color/lightgrey" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_timer_slider"/>
+    <include layout="@layout/layout_planet_buttons"/>
+    <include layout="@layout/layout_planet_info"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bmi_calculation"
+            android:icon="@drawable/bmi_1"
+            android:title="BMI Calculator" />
+        <item
+            android:id="@+id/nav_length_conversions"
+            android:icon="@drawable/scale_conversion"
+            android:title="Length Conversions" />
+        <item
+            android:id="@+id/nav_mass_conversions"
+            android:icon="@drawable/mass_conversion"
+            android:title="Mass Conversions"/>
+        <item android:id="@+id/nav_area_conversions"
+            android:icon="@drawable/rectangle"
+            android:title="Area Conversions"/>
+        <item android:id="@+id/nav_time_conversions"
+            android:icon="@drawable/clock_icon"
+            android:title="Time Conversions"/>
+        <item android:id="@+id/nav_digitalStorage_conversions"
+            android:icon="@drawable/memory_card"
+            android:title="Digital Storage Conversions"/>
+        <item android:id="@+id/nav_temperature_conversions"
+            android:icon="@drawable/temperature_icon"
+            android:title="Temperature Conversions"/>
+        <item
+            android:id="@+id/nav_angle_of_banking"
+            android:icon="@drawable/angle_banking"
+            android:title="Angle of banking"/>
+        <item
+            android:id="@+id/nav_velocity"
+            android:icon="@drawable/rocket"
+            android:title="Astronomical Unit Conversions"/>
+        <item
+            android:id="@+id/nav_planetory"
+            android:icon="@drawable/planets_icon"
+            android:title="Planetary Distances"/>
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/icon_currency"
+            android:title="Currency Conversions"/>
+        <item
+            android:id="@+id/nav_timezone"
+            android:icon="@drawable/timezone_png"
+            android:title="Time Zone Conversions" />
+        <item
+            android:id="@+id/nav_themes"
+            android:icon="@drawable/theme_icon"
+            android:title="Themes" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/info_icon"
+            android:title="About Us" />
+
+    </group>
+
+</menu>

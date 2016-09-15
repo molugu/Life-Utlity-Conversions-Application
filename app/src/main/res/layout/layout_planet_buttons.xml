@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:visibility="gone">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Find out the distances"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:layout_marginRight="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUN"
+                android:id="@+id/button_sun"
+                android:layout_weight="1"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:id="@+id/button_mercury"
+                android:layout_weight="1"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_marginLeft="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_venus"
+                android:layout_weight="1"
+                android:text="Venus"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:layout_marginRight="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EARTH"
+                android:id="@+id/button_earth"
+                android:layout_weight="1"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARS"
+                android:id="@+id/button_mars"
+                android:layout_weight="1"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_marginLeft="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_jupiter"
+                android:layout_weight="1"
+                android:text="JUPITER"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:layout_marginRight="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SATURN"
+                android:id="@+id/button_saturn"
+                android:layout_weight="1"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="URANUS"
+                android:id="@+id/button_uranus"
+                android:layout_weight="1"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_marginLeft="2dp"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_neptune"
+                android:layout_weight="1"
+                android:text="NEPTUNE"
+                android:background="@drawable/button_planet"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"/>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
